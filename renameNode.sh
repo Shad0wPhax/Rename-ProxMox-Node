@@ -3,7 +3,6 @@
 # Set New Hostname 
 read -p "What do you want to change the node name to? " NEW_NODE_NAME
 
-
 echo "OLD_HOSTNAME=$(hostname)" > ~/pmrename.ini
 echo "NEW_HOSTNAME=$NEW_NODE_NAME" >> ~/pmrename.ini
 source <(grep = ~/pmrename.ini)
